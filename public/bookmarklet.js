@@ -94,7 +94,7 @@
 
   // 3. 내 Vercel 백엔드 API 서버로 번역 요청 보내기
   // 🔥 배포 후 'YOUR-PROJECT-NAME.vercel.app' 부분을 내 진짜 도메인 주소로 변경해야 합니다.
-  const SERVER_URL = 'https://YOUR-PROJECT-NAME.vercel.app/api/translate';
+  const SERVER_URL = 'https://my-translator-blush.vercel.app/';
 
   fetch(SERVER_URL, {
     method: 'POST',
