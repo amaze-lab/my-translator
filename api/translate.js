@@ -22,7 +22,7 @@ export default async function handler(req, res) {
 
   try {
     // Gemini 1.5 Flash API 호출 (속도가 빠르고 비용이 효율적입니다)
-    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`, {
+    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent?key=${apiKey}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
